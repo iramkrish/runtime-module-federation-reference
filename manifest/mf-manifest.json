@@ -1,7 +1,7 @@
 {
   "default": {
     "profile": {
-      "enabled": true,
+      "enabled": false,
       "url": "http://localhost:3001/remoteEntry.js",
       "scope": "profile",
       "module": "./App"

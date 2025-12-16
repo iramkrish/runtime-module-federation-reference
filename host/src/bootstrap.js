@@ -12,8 +12,6 @@ async function bootstrap() {
   );
   validateManifest(manifest);
 
-  console.log("Manifest loaded:", manifest);
-
   const profile = manifest.profile;
   if (profile?.enabled) {
     await loadRemoteEntry(profile.url, profile.scope);
