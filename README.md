@@ -7,7 +7,5 @@ This repository demonstrates a **runtime Module Federation setup** using Webpack
 - Manifest-driven runtime loading
 - Explicit share-scope ownership
 - Safe bootstrap sequencing
-- Failure isolation
-- Version-safe dependency sharing
 
 This is a **reference implementation**, not a starter template.
