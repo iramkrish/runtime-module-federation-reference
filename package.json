@@ -1,0 +1,15 @@
+{
+  "name": "runtime-mf-reference",
+  "private": true,
+  "scripts": {
+    "manifest": "json-server --port 8000 manifest/mf-manifest.json",
+    "host": "cd host && npm start",
+    "profile": "cd remotes/profile && npm start",
+    "profile:dev": "cd remotes/profile && npm start:standalone",
+    "dev": "npm-run-all --parallel manifest host profile"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
